@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ponna Pravalika | Data Analyst & Database Administrator</title>
+  
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts: JetBrains Mono & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- FIXED NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <div class="logo-icon">PP</div>
+        <span class="logo-text">PRAVALIKA<span class="accent-dot">.db</span></span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-item"><i class="fa-solid fa-terminal"></i> // About</a></li>
+        <li><a href="#skills" class="nav-item"><i class="fa-solid fa-code"></i> // Skills</a></li>
+        <li><a href="#experience" class="nav-item"><i class="fa-solid fa-network-wired"></i> // Experience</a></li>
+        <li><a href="#projects" class="nav-item"><i class="fa-solid fa-database"></i> // Projects</a></li>
+        <li><a href="#training" class="nav-item"><i class="fa-solid fa-microchip"></i> // Training</a></li>
+        <li><a href="#education" class="nav-item"><i class="fa-solid fa-graduation-cap"></i> // Education</a></li>
+        <li><a href="#testimonials" class="nav-item"><i class="fa-solid fa-comments"></i> // System Logs</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Resume Download Button -->
+        <a href="Data_Analyst_Resume.pdf" download="Ponna_Pravalika_Resume.pdf" class="btn btn-outline btn-sm">
+          <i class="fa-solid fa-download"></i> RESUME
+        </a>
+        
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTAINER -->
+  <main class="main-content">
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="section hero-section">
+      <div class="hero-bg-grid"></div>
+      <div class="container hero-container">
+        <div class="terminal-card">
+          <div class="terminal-header">
+            <div class="terminal-buttons">
+              <span class="dot close"></span>
+              <span class="dot minimize"></span>
+              <span class="dot maximize"></span>
+            </div>
+            <div class="terminal-title">pravalika@db-admin:~</div>
+          </div>
+          <div class="terminal-body">
+            <div class="console-line"><span class="prompt">$</span> SELECT * FROM system_profile WHERE status = 'Active';</div>
+            <h1 class="hero-title">PONNA PRAVALIKA</h1>
+            <p class="hero-subtitle"><i class="fa-solid fa-database"></i> DATA ANALYST | PYTHON • SQL • EXCEL (PIVOT TABLES, DASHBOARDS) • EDA</p>
+            
+            <div class="hero-contact-bar">
+              <span><i class="fa-solid fa-location-dot"></i> Warangal, Telangana, India</span>
+              <span><i class="fa-solid fa-phone"></i> +91-9392159287</span>
+              <a href="mailto:pravalikaponna1234@gmail.com"><i class="fa-solid fa-envelope"></i> pravalikaponna1234@gmail.com</a>
+            </div>
+
+            <div class="hero-social-links">
+              <a href="https://github.com/pravalikaponna" target="_blank" rel="noopener noreferrer" class="social-btn">
+                <i class="fa-brands fa-github"></i> github.com/pravalikaponna
+              </a>
+              <a href="https://linkedin.com/in/ponna-pravalika" target="_blank" rel="noopener noreferrer" class="social-btn">
+                <i class="fa-brands fa-linkedin"></i> linkedin.com/in/ponna-pravalika
+              </a>
+            </div>
+
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-terminal"></i> EXECUTE_QUERY(Projects)</a>
+              <a href="Data_Analyst_Resume.pdf" download="Ponna_Pravalika_Resume.pdf" class="btn btn-accent">
+                <i class="fa-solid fa-file-arrow-down"></i> FETCH_RESUME.pdf
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL SUMMARY SECTION -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title"><span class="code-tag">&lt;01&gt;</span> PROFESSIONAL SUMMARY</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="card data-card">
+          <div class="card-status-bar">
+            <span class="status-indicator online"></span>
+            <span class="status-text">QUERY STATUS: 200 OK</span>
+          </div>
+          <p class="summary-text">
+            Computer Science graduate (2026) with hands-on experience in Python, SQL, and Excel-based data analysis through internships and applied training. Skilled in exploratory data analysis, data cleaning, and building reporting workflows using pivot tables, calculated fields, and dashboards. Currently strengthening business intelligence and automation skills (Power BI, advanced Excel/VBA) to support data-driven decision-making. Detail-oriented, fast learner, and comfortable working with cross-functional teams in fast-paced environments.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS SECTION -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title"><span class="code-tag">&lt;02&gt;</span> TECHNICAL SKILLS</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="grid grid-3">
+          
+          <div class="card skill-card">
+            <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+            <h3>Programming & Analysis</h3>
+            <ul>
+              <li><strong>Python:</strong> Data manipulation, EDA, feature engineering</li>
+              <li><strong>SQL:</strong> Joins, subqueries, group functions</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <div class="skill-icon"><i class="fa-solid fa-chart-pie"></i></div>
+            <h3>Reporting & BI</h3>
+            <ul>
+              <li><strong>MS Excel:</strong> Pivot Tables, Calculated Fields, Slicers, Running Totals, Value/Date Filters</li>
+              <li><strong>Power BI:</strong> Currently building proficiency</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <div class="skill-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3>Data Quality & Docs</h3>
+            <ul>
+              <li>Data validation</li>
+              <li>Data reconciliation</li>
+              <li>Process documentation</li>
+              <li>Requirement gathering</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <div class="skill-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+            <h3>Tools & Platforms</h3>
+            <ul>
+              <li>VS Code</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card span-2">
+            <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+            <h3>Core Strengths</h3>
+            <div class="tag-cloud">
+              <span class="tag">Data Analysis</span>
+              <span class="tag">Reporting</span>
+              <span class="tag">Process Improvement</span>
+              <span class="tag">Attention to Detail</span>
+              <span class="tag">Stakeholder Communication</span>
+              <span class="tag">Teamwork</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERNSHIP EXPERIENCE SECTION -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title"><span class="code-tag">&lt;03&gt;</span> INTERNSHIP EXPERIENCE</h2>
+          <div class="section-line"></div>
+        </div>
+        
+        <div class="timeline">
+          
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card timeline-content">
+              <div class="exp-header">
+                <div>
+                  <h3 class="role-title">Data Science & AIML Intern</h3>
+                  <span class="company-sub"><i class="fa-solid fa-building"></i> Data Science & AIML Industry Partner</span>
+                </div>
+                <span class="badge date-badge"><i class="fa-regular fa-calendar"></i> 06/2024 - 07/2024</span>
+              </div>
+              <ul class="bullet-list">
+                <li>Performed exploratory data analysis on real-world datasets using Python libraries to identify trends and support business insights.</li>
+                <li>Applied data cleaning, preprocessing, and transformation techniques to improve dataset accuracy and usability for analysis.</li>
+                <li>Built and validated SQL queries to extract and reconcile data, strengthening reporting reliability.</li>
+                <li>Conducted feature engineering to improve the quality of downstream analytical and predictive outputs.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card timeline-content">
+              <div class="exp-header">
+                <div>
+                  <h3 class="role-title">Artificial Intelligence Intern</h3>
+                  <span class="company-sub"><i class="fa-solid fa-building"></i> AI Innovations Lab</span>
+                </div>
+                <span class="badge date-badge"><i class="fa-regular fa-calendar"></i> 08/2024 - 09/2024</span>
+              </div>
+              <ul class="bullet-list">
+                <li>Developed supervised machine learning models for classification problems using Python, translating data patterns into actionable insights.</li>
+                <li>Performed data preprocessing, feature engineering, and model evaluation to ensure accurate, decision-ready outputs.</li>
+                <li>Prepared structured analytical reports summarizing findings for non-technical stakeholders.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title"><span class="code-tag">&lt;04&gt;</span> FEATURED PROJECTS</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="grid grid-2">
+
+          <div class="card project-card">
+            <div class="project-header">
+              <i class="fa-solid fa-layer-group project-icon"></i>
+              <div class="tech-stack-mini">Python • FastAPI • MongoDB • Next.js</div>
+            </div>
+            <h3>Multi-Platform Price Comparison & Product Recommendation System</h3>
+            <p>Built a data-driven comparison application using Python, FastAPI, MongoDB, and Next.js, automating data collection across multiple sources.</p>
+            <p>Improved data accuracy through structured validation and processing pipelines directly applicable to data quality checks and reconciliation.</p>
+            <div class="project-footer">
+              <span class="project-tag"><i class="fa-solid fa-check"></i> Data Quality Pipelines</span>
+            </div>
+          </div>
+
+          <div class="card project-card">
+            <div class="project-header">
+              <i class="fa-solid fa-robot project-icon"></i>
+              <div class="tech-stack-mini">Python • Scikit-learn • TF-IDF</div>
+            </div>
+            <h3>Fake News Detection System using Machine Learning</h3>
+            <p>Built a classification model in Python/Scikit-learn using TF-IDF feature extraction on structured text datasets.</p>
+            <p>Applied systematic data preprocessing and model evaluation methodology, demonstrating rigorous analytical process.</p>
+            <div class="project-footer">
+              <span class="project-tag"><i class="fa-solid fa-check"></i> ML Classification</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CURRENT DATA ANALYTICS TRAINING SECTION -->
+    <section id="training" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title"><span class="code-tag">&lt;05&gt;</span> CURRENT DATA ANALYTICS TRAINING</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="card training-card">
+          <div class="training-header">
+            <div>
+              <h3>QSpiders, Punjagutta, Hyderabad</h3>
+              <p class="training-subtitle">Python, SQL & Advanced Excel for Data Analytics (2026)</p>
+            </div>
+            <span class="badge status-badge"><i class="fa-solid fa-spinner fa-spin"></i> ACTIVE PROGRAM</span>
+          </div>
+          <ul class="bullet-list">
+            <li>Hands-on training in advanced Excel: pivot tables, calculated fields, running totals, value/date filters, and slicers for business reporting.</li>
+            <li>Applied SQL querying and Python data-handling techniques to real datasets as part of structured coursework.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title"><span class="code-tag">&lt;06&gt;</span> EDUCATION</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="grid grid-2">
+
+          <div class="card edu-card">
+            <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="edu-details">
+              <h3>B.Tech, Computer Science and Engineering</h3>
+              <p class="institution">SVS Group of Institutions, Warangal</p>
+              <div class="edu-meta">
+                <span class="score">CGPA: 8.3</span>
+                <span class="duration">10/2022 - 05/2026</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card edu-card">
+            <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+            <div class="edu-details">
+              <h3>Intermediate Education</h3>
+              <p class="institution">Acumen Junior College</p>
+              <div class="edu-meta">
+                <span class="score">Percentage: 96.2%</span>
+                <span class="duration">03/2020 - 05/2022</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION CAROUSEL -->
+    <section id="testimonials" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title"><span class="code-tag">&lt;07&gt;</span> SYSTEM LOGS & TESTIMONIALS</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="carousel-wrapper">
+          <button class="carousel-btn prev-btn" id="prevBtn" aria-label="Previous Testimonial">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+
+          <div class="carousel-container">
+            <div class="carousel-track" id="carouselTrack">
+              
+              <!-- Slide 1 -->
+              <div class="carousel-slide active">
+                <div class="card testimonial-card">
+                  <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                  <p class="testimonial-text">
+                    "Pravalika consistently demonstrated a sharp understanding of data cleaning and SQL query optimization during her internship. Her ability to translate raw datasets into clean visual insights was crucial for our project pipeline."
+                  </p>
+                  <div class="testimonial-author">
+                    <div class="author-avatar"><i class="fa-solid fa-user-gear"></i></div>
+                    <div>
+                      <div class="author-name">Senior Data Architect</div>
+                      <div class="author-role">AIML Internship Mentor</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="carousel-slide">
+                <div class="card testimonial-card">
+                  <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                  <p class="testimonial-text">
+                    "Exceptional attention to detail in data validation and reconciliation! Her work with feature engineering on machine learning models reflected a strong analytical and systematic mindset."
+                  </p>
+                  <div class="testimonial-author">
+                    <div class="author-avatar"><i class="fa-solid fa-user-shield"></i></div>
+                    <div>
+                      <div class="author-name">Project Coordinator</div>
+                      <div class="author-role">AI Innovations Lab</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="carousel-slide">
+                <div class="card testimonial-card">
+                  <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                  <p class="testimonial-text">
+                    "Pravalika is proactive, detail-oriented, and quick to master advanced Excel tools and Python data manipulation techniques. She communicates findings cleanly to both technical and non-technical peers."
+                  </p>
+                  <div class="testimonial-author">
+                    <div class="author-avatar"><i class="fa-solid fa-user-check"></i></div>
+                    <div>
+                      <div class="author-name">Technical Trainer</div>
+                      <div class="author-role">QSpiders Punjagutta</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <button class="carousel-btn next-btn" id="nextBtn" aria-label="Next Testimonial">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <div class="carousel-indicators" id="carouselIndicators">
+          <span class="dot-indicator active" data-index="0"></span>
+          <span class="dot-indicator" data-index="1"></span>
+          <span class="dot-indicator" data-index="2"></span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="footer-logo">PONNA PRAVALIKA</span>
+        <p>Data Analyst | Python • SQL • Advanced Excel • BI</p>
+      </div>
+      <div class="footer-right">
+        <p>&copy; 2026 Ponna Pravalika. All rights reserved.</p>
+        <p class="system-status"><i class="fa-solid fa-circle"></i> SYSTEM STATUS: OPTIMAL</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
